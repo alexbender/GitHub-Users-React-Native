@@ -1,8 +1,8 @@
 platform :ios, '9.0'
 require_relative '../node_modules/@react-native-community/cli-platform-ios/native_modules'
 
-target 'Modulo06' do
-  # Pods for Modulo06
+target 'modulo06' do
+  # Pods for modulo06
   pod 'React', :path => '../node_modules/react-native/'
   pod 'React-Core', :path => '../node_modules/react-native/React'
   pod 'React-DevSupport', :path => '../node_modules/react-native/React'
@@ -27,7 +27,9 @@ target 'Modulo06' do
   pod 'glog', :podspec => '../node_modules/react-native/third-party-podspecs/glog.podspec'
   pod 'Folly', :podspec => '../node_modules/react-native/third-party-podspecs/Folly.podspec'
 
-  target 'Modulo06Tests' do
+  pod 'RNVectorIcons', :path => '../node_modules/react-native-vector-icons'
+
+  target 'modulo06Tests' do
     inherit! :search_paths
     # Pods for testing
   end
@@ -35,10 +37,10 @@ target 'Modulo06' do
   use_native_modules!
 end
 
-target 'Modulo06-tvOS' do
-  # Pods for Modulo06-tvOS
+target 'modulo06-tvOS' do
+  # Pods for modulo06-tvOS
 
-  target 'Modulo06-tvOSTests' do
+  target 'modulo06-tvOSTests' do
     inherit! :search_paths
     # Pods for testing
   end
