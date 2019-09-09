@@ -1,2 +1,3 @@
-# RN-Modulo06
-BootCamp React-Native Modulo 06
+# React-Native - Modulo06 - BootCamp
+
+Desenvolvimento de uma aplicação Mobile para consulta de usuários / Issues, através de API do GitHub
